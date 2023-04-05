@@ -1,17 +1,16 @@
 ## Readme file.
 ### Work tasks in DB operations
-Here will be published workflows in operation with DB related to the Space Research area.
+Here will be published workflows in operation with DB related to the space research area and spatial data analysis.
 
 
 ## WEH folder
+___
+>This folder contains DB with water equivalent hydrogen (WEH) distribution at the South Pole of the Moon (from 70° to 90°
+>latitudes).
+>More about WEH can be read in Sanin et al., 2017 etc.
+>This data was used in Krasilnikov et al., (2023a) and similar projects.
 
-```
-This folder contains DB with water equivalent hydrogen (WEH) distribution at the South Pole of the Moon (from 70° to 90°
-latitudes).
-More about WEH can be read in Sanin et al., 2017 etc.
-This data was used in Krasilnikov et al., (2023a) and similar projects.
-```
-
+___
 ## SPA folder
 
 ```
