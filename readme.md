@@ -22,7 +22,7 @@ ___
 >This folder contains scripts for preparation data for the MS Excel program.
 In the Artemis folder, you can find script numbers.py, where data was prepared for future processing in geological 
 programs (Leapfrog) as Drillhole data.
-This data will be used in the Artemis project and published in Krasilnikov et al., (2023b, in press).
+This data will be used in the Artemis project and published in Krasilnikov et al., (2023b).
 
 ## moon_craters_catalogue
 ___
@@ -35,6 +35,9 @@ Be aware this dataset has a signifficant amount of secondary craters.
 ## How to cite:
 ___
 ```
-Krasilnikov, S. S., Ivanov, M. A., Head, J. W., Krasilnikov, A. S. (2023a). Geologic history of the south circumpolar 
+Krasilnikov, S.S., Ivanov, M.A., Head, J.W., Krasilnikov, A.S., 2023a. Geologic history of the south circumpolar 
 region (SCR) of the Moon. Icarus, 115422. https://doi.org/10.1016/j.icarus.2022.115422
+
+Krasilnikov, A.S., Krasilnikov, S.S., Ivanov, M.A., Head, J.W., 2023b. Estimation of ejecta thickness from impact 
+craters in the South polar region of the Moon, Solar System Research, Vol. 57, No. 2, pp. 122–132.
 ```
