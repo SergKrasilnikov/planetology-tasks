@@ -8,13 +8,13 @@ ___
 >This folder contains DB with water equivalent hydrogen (WEH) distribution at the South Pole of the Moon (from 70° to 90°
 latitudes).
 More about WEH can be read in Sanin et al., 2017 etc.
-This data was used in Krasilnikov et al., (2023a) and similar projects.
+This data was used in **Krasilnikov et al., (2023a)** and similar projects.
 
 ## SPA folder
 ___
 >This folder contains DB with the elevation data in the transitional zone between the floor and the ejecta area of the
 SPA (South Pole–Aitken basin). Morphology of this zone describes the direction of the oblique impact of SPA.
-This data was published in Krasilnikov et al., (2023a).
+This data was published in **Krasilnikov et al., (2023a)**.
 
 
 ## excel_compilation
@@ -22,7 +22,7 @@ ___
 >This folder contains scripts for preparation data for the MS Excel program.
 In the Artemis folder, you can find script numbers.py, where data was prepared for future processing in geological 
 programs (Leapfrog) as Drillhole data.
-This data will be used in the Artemis project and published in Krasilnikov et al., (2023b).
+This data will be used in the Artemis project and published in **Krasilnikov et al., (2023b)**.
 
 ## moon_craters_catalogue
 ___
@@ -31,6 +31,10 @@ datasets in .dbf and .shp formats for future analyses in GIS programs. Each data
 centre of craters in the sectors of the Moon, cut by 30x30 degrees. In ArcGIS, points could be easily transformed into 
 polygons using the buffer tool and radius column.
 Be aware this dataset has a signifficant amount of secondary craters.
+
+## web-scraping
+___
+>Mining of information from some websites.
 
 ## How to cite:
 ___
