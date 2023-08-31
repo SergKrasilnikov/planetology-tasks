@@ -3,7 +3,7 @@ import requests
 from collections import OrderedDict
 import json
 
-image = 'M1102725514LE' #set image name
+image = 'M1353951063RE' #set image name
 url = f"https://wms.lroc.asu.edu/lroc/view_lroc/LRO-L-LROC-2-EDR-V1.0/{image}"
 
 def searching_values(flag, text_value): # extract data from the LROC NAC website
@@ -27,9 +27,9 @@ def searching_values(flag, text_value): # extract data from the LROC NAC website
         flag = True
         text_value = "Sub spacecraft longitude"
 
-    elif sub_heading.text == "Sub solar azimuth\n        ":
-        flag = True
-        text_value = "AzimuthSun"
+    # elif sub_heading.text == "Sub solar longitude\n        ":
+    #     flag = True
+    #     text_value = "AzimuthSun"
     elif sub_heading.text == "Incidence angle\n        ":
         flag = True
         text_value = "IncidenceAngle"
@@ -44,6 +44,8 @@ def searching_values(flag, text_value): # extract data from the LROC NAC website
 def make_dict(text_dict): #correction of the dictionary and ordering the files
     text_dict['Cen_latlon'] = f'{text_dict["Center latitude"]},{text_dict["Center longitude"]}'
     text_dict.pop("Center latitude", None), text_dict.pop("Center longitude", None)
+
+    text_dict['AzimuthSun'] = text_dict["Sub solar longitude"]
 
     text_dict['SubSol_latlon'] = f'{text_dict["Sub solar latitude"]},{text_dict["Sub solar longitude"]}'
     text_dict.pop("Sub solar latitude", None), text_dict.pop("Sub solar longitude", None)
