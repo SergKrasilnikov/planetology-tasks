@@ -13,6 +13,7 @@ def searching_values(flag, text_value): # extract data from the LROC NAC website
     elif sub_heading.text == "Center longitude\n        ":
         flag = True
         text_value = "Center longitude"
+
     elif sub_heading.text == "Sub solar latitude\n        ":
         flag = True
         text_value = "Sub solar latitude"
@@ -27,9 +28,6 @@ def searching_values(flag, text_value): # extract data from the LROC NAC website
         flag = True
         text_value = "Sub spacecraft longitude"
 
-    # elif sub_heading.text == "Sub solar longitude\n        ":
-    #     flag = True
-    #     text_value = "AzimuthSun"
     elif sub_heading.text == "Incidence angle\n        ":
         flag = True
         text_value = "IncidenceAngle"
