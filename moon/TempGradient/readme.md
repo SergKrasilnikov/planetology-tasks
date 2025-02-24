@@ -16,13 +16,13 @@ ___
 ___
 The temperature at depth *z* can be modeled using the **heat diffusion equation**:
 
-$$T(z,t) = T<sub>avg</sub> + A * e^{-z/d}*$\cos$(2$\pi$t/P - z/d) $$
+$$T(z,t) = T_{avg} + A * e^{-z/d} * cos((2\pit) / (P) - (z) / (d)) $$
 
 where:
 - $$T(z,t)$$: Temperature at depth zz and time tt.
-- $$T<sub>avg</sub>$$: Average surface temperature.
+- $$T_{avg}$$: Average surface temperature.
 - $$A$$: Amplitude of surface temperature variation.
-- $$d$$: Skin depth $$(d = \sqrt{2k/wpC})$$ $$w = 2$\pi$t/P$$
+- $$d$$: Skin depth $$(d = \sqrt{2k/wpC})$$, $$w = (2\pit) / P$$
 - $$P$$: Period of temperature variation (e.g., 1 Martian day = 24.65 hours).
 
 ## How to cite:
